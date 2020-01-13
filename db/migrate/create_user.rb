@@ -1,4 +1,4 @@
-class CreateUser < ActiveRecord
+class CreateUser < ActiveRecord::Migration
 def change
   :create_table user do
   t.string :name
